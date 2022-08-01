@@ -50,7 +50,7 @@ public class GetUserData extends Base {
 	public void getUserById_AddingRandom() {
 
 		Random random = new Random();
-		int n = random.nextInt(1, 11);
+		int n = random.nextInt(11-1) + 1;
 		int id = All_User_Data.getLast_id() + n;
 
 		Response resp = httpRequest.pathParam("id", id).get("/{id}");

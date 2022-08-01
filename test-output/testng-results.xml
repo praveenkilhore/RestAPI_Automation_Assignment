@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-28T21:45:36 IST" name="Default suite" finished-at="2022-07-28T21:45:52 IST" duration-ms="16074">
+  <suite started-at="2022-08-01T15:57:31 IST" name="RestAPISuite" finished-at="2022-08-01T15:57:44 IST" duration-ms="12378">
     <groups>
     </groups>
-    <test started-at="2022-07-28T21:45:36 IST" name="Default test" finished-at="2022-07-28T21:45:52 IST" duration-ms="16074">
+    <test started-at="2022-08-01T15:57:31 IST" name="RestAPITest" finished-at="2022-08-01T15:57:44 IST" duration-ms="12378">
       <class name="restAPI_Requests.GetUserData">
-        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:36 IST" name="setup" finished-at="2022-07-28T21:45:38 IST" duration-ms="1127" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:31 IST" name="setup" finished-at="2022-08-01T15:57:33 IST" duration-ms="1072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAllUserData()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:38 IST" name="getAllUserData" finished-at="2022-07-28T21:45:44 IST" duration-ms="5960" status="PASS">
+        <test-method signature="getAllUserData()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:33 IST" name="getAllUserData" finished-at="2022-08-01T15:57:36 IST" duration-ms="3827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUserData -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:44 IST" name="setup" finished-at="2022-07-28T21:45:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:36 IST" name="setup" finished-at="2022-08-01T15:57:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="post_AddUser()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:44 IST" name="post_AddUser" finished-at="2022-07-28T21:45:47 IST" duration-ms="3415" status="PASS">
+        <test-method signature="post_AddUser()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:36 IST" name="post_AddUser" finished-at="2022-08-01T15:57:38 IST" duration-ms="1215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post_AddUser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:47 IST" name="setup" finished-at="2022-07-28T21:45:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:38 IST" name="setup" finished-at="2022-08-01T15:57:38 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="post_changeId_DataType()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:47 IST" name="post_changeId_DataType" finished-at="2022-07-28T21:45:48 IST" duration-ms="1103" status="PASS">
+        <test-method signature="post_changeId_DataType()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:38 IST" name="post_changeId_DataType" finished-at="2022-08-01T15:57:39 IST" duration-ms="1435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post_changeId_DataType -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:48 IST" name="setup" finished-at="2022-07-28T21:45:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:39 IST" name="setup" finished-at="2022-08-01T15:57:39 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="delete_User()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:48 IST" name="delete_User" finished-at="2022-07-28T21:45:49 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="1008" status="PASS">
+        <test-method signature="delete_User()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:39 IST" name="delete_User" finished-at="2022-08-01T15:57:40 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="1125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_User -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:49 IST" name="setup" finished-at="2022-07-28T21:45:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:40 IST" name="setup" finished-at="2022-08-01T15:57:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="delete_User_Id_DataType_to_String()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:49 IST" name="delete_User_Id_DataType_to_String" finished-at="2022-07-28T21:45:50 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="1271" status="PASS">
+        <test-method signature="delete_User_Id_DataType_to_String()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:40 IST" name="delete_User_Id_DataType_to_String" finished-at="2022-08-01T15:57:41 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="1196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_User_Id_DataType_to_String -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:50 IST" name="setup" finished-at="2022-07-28T21:45:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:41 IST" name="setup" finished-at="2022-08-01T15:57:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getUserById()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:50 IST" name="getUserById" finished-at="2022-07-28T21:45:51 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="1119" status="PASS">
+        <test-method signature="getUserById()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:41 IST" name="getUserById" finished-at="2022-08-01T15:57:43 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserById -->
-        <test-method signature="getUserById_AddingRandom()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:51 IST" name="getUserById_AddingRandom" finished-at="2022-07-28T21:45:52 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="964" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserById_AddingRandom -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-07-28T21:45:51 IST" name="setup" finished-at="2022-07-28T21:45:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:43 IST" name="setup" finished-at="2022-08-01T15:57:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+        <test-method signature="getUserById_AddingRandom()[pri:0, instance:restAPI_Requests.GetUserData@41fecb8b]" started-at="2022-08-01T15:57:43 IST" name="getUserById_AddingRandom" finished-at="2022-08-01T15:57:44 IST" depends-on-methods="restAPI_Requests.GetUserData.getAllUserData" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById_AddingRandom -->
       </class> <!-- restAPI_Requests.GetUserData -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- RestAPITest -->
+  </suite> <!-- RestAPISuite -->
 </testng-results>

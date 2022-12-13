@@ -29,8 +29,8 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: praveenkilhore/devops_practice
+        image-name: APIAutomation
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: APIAutomation
          

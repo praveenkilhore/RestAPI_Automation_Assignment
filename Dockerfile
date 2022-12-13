@@ -1,6 +1,4 @@
-FROM openjdk:8-jre-alpine
-
-LABEL Praveen Kilhore <praveenkilhore@gmail.com>
-
-RUN apk add --no-cache curl tar bash procps
-CMD [""]
+FROM openjdk:8
+ADD target/my-maven-docker-project.jar my-maven-docker-project.jar
+ENTRYPOINT ["java", "-jar","my-maven-docker-project.jar"]
+EXPOSE 8080
